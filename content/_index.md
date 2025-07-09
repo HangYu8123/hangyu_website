@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title:
 date: 2022-10-24
 type: landing
@@ -8,10 +7,11 @@ sections:
   - block: about.avatar
     id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      # Override your bio text from `authors/admin/_index.md`?
       text: 
+
+
+
   - block: contact
     id: contact
     content:
@@ -19,9 +19,9 @@ sections:
       subtitle:
       text: |-
         I am always delighted to discuss my research and collaborate with others who share similar interests. If you would like to get in touch, please feel free to email me. I look forward to hearing from you and exploring potential opportunities to work together.
-      # Contact (add or remove contact options as necessary)
       email: Hang.yu625917@tufts.edu
-    - block: markdown
+
+  - block: markdown
     id: recommendation
     content:
       text: |-
